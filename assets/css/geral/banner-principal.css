@@ -1,0 +1,21 @@
+/* Estilo padrão para o banner (para desktop) */
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#mobile-banner {
+  display: none;
+}
+
+/* Quando a tela é menor que 768px (tamanho de dispositivos móveis) */
+@media (max-width: 768px) {
+  #desktop-banner {
+      display: none;
+  }
+
+  #mobile-banner {
+      display: block;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+    background-color: #ff6500;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer .logo img {
+    max-width: 150px;
+  }
+  
+  .footer .social-media a {
+    margin: 0 10px;
+  }
+  
+  .footer .social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .footer .social-media img:hover {
+    transform: scale(1.1);
+  }
+  
+ 

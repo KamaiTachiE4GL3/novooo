@@ -1,0 +1,36 @@
+:root {
+    --laranja-principal: #ff6500; /* cor da chapa */
+    --azul-principal:#142241;
+}
+
+.image-container-header {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container-header img {
+    display: block;
+    width: 120px; /* Ajuste conforme necessário */
+    height: auto;
+    cursor: pointer;
+}
+
+.particle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    animation: particle-animation 1s ease-out forwards;
+}
+
+@keyframes particle-animation {
+    0% {
+        opacity: 1;
+        transform: scale(1) translate(0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0) translate(var(--x, 0px), var(--y, 0px));
+    }
+}

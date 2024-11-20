@@ -1,0 +1,94 @@
+
+:root {
+    --laranja-principal: #ff6500; /* cor da chapa */
+    --azul-principal:#142241;
+}
+
+header {
+    width: 100%;
+    z-index: 999999;
+    background-color: var(--laranja-principal);
+}
+nav {
+    width: 100%;
+    z-index: 999999;
+}
+.logo-header{
+    width: 120px;
+}
+.hover-text {
+    position: relative;
+    display: inline-flexbox;
+    cursor: pointer;
+    color: white;
+    text-align: start;
+    padding: 8px;
+}
+.hover-options {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    padding: 12px;
+    border-radius: 4px;
+    z-index: 1;
+}
+.hover-text:hover .hover-options {
+    display: block;
+}
+.hover-options a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+.hover-options a:hover {
+    background-color: #f1f1f1;
+}
+@media (max-width: 1350px) {
+    main .d-flex .lead {
+        max-width: 100%;
+    }
+    .hover-text {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .texto-titulo-header{
+        font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    
+    .header-logo{
+        font-size: 25px;
+     }
+     .hover-text {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        text-align: left;
+        padding: 0px;
+    }
+    
+    .texto-titulo-header{
+        font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    
+}

@@ -1,0 +1,52 @@
+.container-radio-desktop{
+    padding: 0px;
+   img{
+    width: 180px;
+   }
+}
+@media (max-width:401px){
+    .container-radio-desktop{
+        padding: 5px;
+       img{
+        width: 120px;
+       }
+    }  
+}
+
+@media (max-width: 500px) {
+    .container-radio-desktop{
+        padding: 0px;
+       img{
+        width: 120px;
+       }
+    }
+}
+    
+    
+@media (max-width: 768px) {
+    .container-radio-desktop{
+        padding: 0px;
+       img{
+        width: 120px;
+        max-width: 120px;
+       }
+    }
+}
+@media (max-width: 1025px) {
+    .container-radio-desktop{
+        padding: 0px;
+       img{
+        width: 120px;
+        max-width: 120px;
+       }
+    }
+}
+@media (max-width: 1450px) {
+    .container-radio-desktop{
+        padding: 0px;
+       img{
+        width: 120px;
+        max-width: 120px;
+       }
+    }
+}
